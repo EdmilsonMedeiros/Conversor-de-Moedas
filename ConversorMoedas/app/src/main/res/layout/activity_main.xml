@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/qual_o_valor_em_real"
+        android:textSize="30sp"
+        android:textColor="#4CAF50"/>
+
+    <EditText
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#3F51B5"
+        android:id="@+id/edit_value"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/valor_em_dolar" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/text_dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/valor_em_dolar"
+        android:textColor="#009688"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/valor_em_euro" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/text_euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/valor_em_euro"
+        android:textColor="#009688"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_alculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#8BC34A"
+        android:text="@string/calcular"
+        android:textColor="#FFF" />
+
+</LinearLayout>
